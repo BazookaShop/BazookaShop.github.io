@@ -1,5 +1,10 @@
 body{
-background-color: rgb(red, green, rgb(134, 230, 243))
+background-color: rgb(134, 230, 243)
+}
+
+@font-face{
+    font-family: "future";
+    src: url("Outrun \ future\ Bold.otf");
 }
 
 h1{
