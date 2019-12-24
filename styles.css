@@ -47,5 +47,18 @@ body{
         display: inline-block;
     }
 
+    .add-button{
+        width: 75%;
+        outline: white;
+        border-radius: 24px;
+        padding: 10px;
+        border: 3px solid white;
+        background-color: transparent;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
 
     
