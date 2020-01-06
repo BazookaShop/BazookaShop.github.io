@@ -26,7 +26,7 @@ body{
         text-align: center;
     }
 
-    .phantom-card{
+    .cape-card{
         background-color: black;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
@@ -39,7 +39,7 @@ body{
         display: inline-block;
     }
 
-    .phantom-info{
+    .cape-info{
         width: 100%;
         height: 100%;
         text-align: center;
@@ -60,7 +60,7 @@ body{
         cursor: pointer;
     }
 
-    .princess-card{
+    .ducky-card{
         background-color: black;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
@@ -73,7 +73,7 @@ body{
         display: inline-block;
     }
 
-    .princess-info{
+    .ducky-info{
         width: 100%;
         height: 100%;
         text-align: center;
