@@ -161,3 +161,12 @@ body{
         font-weight: bold;
         cursor: pointer;
     }
+
+ .sec-nav{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color:white;
+        text-align: center;
+        padding: 20px 22px;
+        text-decoration: none;
+    }
