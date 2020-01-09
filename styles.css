@@ -26,7 +26,20 @@ body{
         text-align: center;
     }
 
-    .cape-card{
+    .add-button{
+        width: 75%;
+        outline: white;
+        border-radius: 24px;
+        padding: 10px;
+        border: 3px solid white;
+        background-color: transparent;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .finalmouse-card{
         background-color: black;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
@@ -39,25 +52,12 @@ body{
         display: inline-block;
     }
 
-    .cape-info{
+    .finalmouse-info{
         width: 100%;
         height: 100%;
         text-align: center;
         transition: 0.8s;
         display: inline-block;
-    }
-
-    .add-button{
-        width: 75%;
-        outline: white;
-        border-radius: 24px;
-        padding: 10px;
-        border: 3px solid white;
-        background-color: transparent;
-        color: white;
-        font-size: 18px;
-        font-weight: bold;
-        cursor: pointer;
     }
 
     .ducky-card{
@@ -81,20 +81,7 @@ body{
         display: inline-block;
     }
 
-    .add-button{
-        width: 75%;
-        outline: white;
-        border-radius: 24px;
-        padding: 10px;
-        border: 3px solid white;
-        background-color: transparent;
-        color: white;
-        font-size: 18px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-
-    .dragon-card{
+    .genji-card{
         background-color: black;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
@@ -107,7 +94,7 @@ body{
         display: inline-block;
     }
 
-    .dragon-info{
+    .genji-info{
         width: 100%;
         height: 100%;
         text-align: center;
@@ -115,20 +102,8 @@ body{
         display: inline-block;
     }
 
-    .add-button{
-        width: 75%;
-        outline: white;
-        border-radius: 24px;
-        padding: 10px;
-        border: 3px solid white;
-        background-color: transparent;
-        color: white;
-        font-size: 18px;
-        font-weight: bold;
-        cursor: pointer;
-    }
 
-    .bio-card{
+    .cancer-card{
         background-color: black;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
@@ -141,7 +116,7 @@ body{
         display: inline-block;
     }
 
-    .bio-info{
+    .cancer-info{
         width: 100%;
         height: 100%;
         text-align: center;
@@ -149,24 +124,6 @@ body{
         display: inline-block;
     }
 
-    .add-button{
-        width: 75%;
-        outline: white;
-        border-radius: 24px;
-        padding: 10px;
-        border: 3px solid white;
-        background-color: transparent;
-        color: white;
-        font-size: 18px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-
- .sec-nav{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-        color:white;
-        text-align: center;
-        padding: 20px 22px;
-        text-decoration: none;
+    .sec-nav{
+        padding: 15px;
     }
