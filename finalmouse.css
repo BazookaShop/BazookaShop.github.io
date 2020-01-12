@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(0, 0, 0)
+    }
+    
+    @font-face{
+        font-family: "future";
+        src: url("future.outrun-future-bold-italic.otf");
+    }
+    
+    h1{
+        color: white;
+        font-family: "future";
+        text-align: center;
+        font-size: 50px;
+        margin: 0;
+    }
+
+    h2{
+        font-family: "future";
+        text-align: center;
+        margin:0;
+    }
+
+    .product-space{
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .finalmouse-card{
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+        width: 20%;
+        border: 5px solid white;
+        border-radius: 10px;
+        margin: 0px 10px 0px;
+        transition: 0.3s;
+        display: inline-block;
+    }
+
+    .finalmouse-info{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: 0.8s;
+        display: inline-block;
+    }
+
+    .slide-container{
+        width: 800px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .image-container{
+        width: 3167px;
+        height: 600 px;
+        position: relative;
+        transition: left 2s;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+    }
+
+    .slider-image{
+        float: left;
+        margin: 0px;
+        padding:0px;
+    }
+
+    .button-container{
+        top: -20px;
+        position: relative;
+        
+    }
+
+    .slider-button{
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        border-radius: 5px;
+        background-color: teal;
+    }
+    #slider-image-Finalmouse:target~.image-container{
+        left:0px;
+    }
+
+    #slider-image-Finalmouse2:target~.image-container{
+        left:-722px;
+    }
+
+    #slider-image-Finalmouse3:target~.image-container{
+        left:-1532px;
+    }
+
+    #slider-image-Finalmouse4:target~.image-container{
+        left:-2321px;
+    }
